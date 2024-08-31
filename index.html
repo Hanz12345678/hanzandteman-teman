@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming CPU Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gaming CPU Shop</h1>
+    </header>
+
+    <main>
+        <section id="product-slider">
+            <div class="slides">
+                <img src="images/cpu1.jpg" alt="CPU 1">
+                <img src="images/cpu2.jpg" alt="CPU 2">
+                <!-- Add more images here -->
+                <img src="images/cpu10.jpg" alt="CPU 10">
+            </div>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <!-- Product items will be added here dynamically -->
+            </div>
+        </section>
+
+        <section id="payment">
+            <h2>Payment Options</h2>
+            <button onclick="processPayment('dana')">Pay with Dana</button>
+            <button onclick="processPayment('ovo')">Pay with OVO</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gaming CPU Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
